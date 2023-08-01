@@ -1,0 +1,236 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+.main-body{
+    display: flex;
+    
+    
+}
+.left-block{
+    position: relative;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    justify-content: space-between;
+    
+
+}
+.top-nav{
+    margin: 5px;
+    padding: 5px;
+}
+.top-nav a{
+    text-decoration: none;
+    font-family: Brush Script MT;
+    font-weight: 400;
+    font-size: 35px;
+    padding-inline: 15px;
+}
+nav{
+    display: block;
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 5px;
+}
+nav ul li{
+    margin: 12px;
+    padding: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    
+}
+nav ul li a img{
+    padding-inline: 10px; 
+}
+.inicio{
+    width: 25px;
+    height: auto;
+
+    
+}
+.buscar{
+    width: 25px;
+    height: auto;
+}
+.Explorar{
+    width: 25px;
+    height: auto;
+}
+.reels{
+    width: 25px;
+    height: auto;
+}
+.mensajes{
+    width: 25px;
+    height: auto;
+}
+.new{
+    width: 25px;
+    height: auto;
+}
+.notificaciones{
+    width: 25px;
+    height: auto;
+}
+.foto-perfil-nav{
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+}
+.mas{
+    width: 25px;
+    height: auto;
+}
+.main-block{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-left: 1px solid;
+}
+.Firts-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.box-foto{
+    width: 40%;
+    left: 0;
+    display: contents;
+}
+.perfil{
+    width: 180px;
+    height: auto;
+    border-radius: 50%;
+    margin: 40px;
+
+}
+.box-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 60%;
+}
+.sub-block-one{    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 600%;
+    height: auto;
+}
+.nick-name{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    
+}
+.pulsores{
+    text-decoration: none;
+    color: black ;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    padding: 10px 10px 15px 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+    width: auto;
+    height: fit-content;
+    margin-top: 25px;
+    margin-left: 3vh;
+    
+}
+.confi{
+    width: 30px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 3vh;
+}
+.sub-block-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    margin-top: 5px;
+}
+.publi{
+    font-size: 17px;
+    margin-top: 15px;
+
+}
+.following{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    margin: 5px;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+.sub-block-two{
+    display: flexbox;
+    justify-content: flex-start;
+}
+.sub-block-two p{
+    font-family: sans-serif;
+}
+.Second-part{
+    width: 100%;
+    height: auto;
+}
+.Second-part ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+}
+.Second-part ul li{
+    display: inline;
+    border-radius: 50%;
+    border-color: black;
+    border: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+.Second-part ul li img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 2px;
+    border-color: black;
+}
+.box-menu{
+    display: flex;
+    justify-content: center;
+}
+.menu-perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: solid 2px black;
+    width: 70%;
+    height: 30px;
+}
+.menu-perfil li{
+    display: inline;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(3, 250px);
+    width: 90%;
+    border: black 1px solid;
+    margin-inline: 50px;
+ }
