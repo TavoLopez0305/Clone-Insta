@@ -1,6 +1,7 @@
 body{
     width: 100%;
     height: 100%;
+    font-family: sans-serif;
 }
 .main-body{
     display: flex;
@@ -28,6 +29,10 @@ body{
     font-weight: 400;
     font-size: 35px;
     padding-inline: 15px;
+    transition: background-color 0.5s;
+}
+.top-nav a:hover{
+    background-color:#c2c2c2 ;
 }
 nav{
     display: block;
@@ -91,6 +96,9 @@ nav ul li a img{
     width: 40px;
     height: auto;
     border-radius: 50%;
+    border: 5px black solid;
+    padding: 0px;
+    margin-inline-end: 7px;
 }
 .mas{
     width: 25px;
@@ -101,6 +109,7 @@ nav ul li a img{
     flex-direction: column;
     width: 100%;
     border-left: 1px solid;
+    
 }
 .Firts-part{
     display: flex;
@@ -228,9 +237,48 @@ nav ul li a img{
 }
 .container {
     display: grid;
-    grid-template-columns: repeat(3, 250px);
-    grid-template-rows: repeat(3, 250px);
+    grid-template-columns: repeat(3, 320px);
+    grid-template-rows: repeat(3, 320px);
     width: 90%;
-    border: black 1px solid;
+    height:auto ;
     margin-inline: 50px;
+    justify-content: center;
+    padding: 15px;
+ }
+ .item1{
+margin: 10px;
+margin: 5px;
+ }
+ .item1 img{
+    width: 300px;
+    height: 300px;
+ }
+ footer{
+    display: flexbox;
+    flex-direction: row;
+    width: fit-content;
+ }
+ .Firts-part-footer{
+    display: flexbox;
+    justify-content: space-around;
+ }
+ .Firts-part-footer ul li{
+display: inline;
+ }
+ .option-footer{
+    text-decoration: none;
+    color: #737373;
+ }
+ .Second-part-footer{
+    display: flex;
+    justify-content: center;
+ }
+ .Second-part-footer select{
+    display: inline;
+    border: 0px;
+ }
+ .Second-part-footer p{
+    display: inline;
+    margin-left: 5px;
+
  }
